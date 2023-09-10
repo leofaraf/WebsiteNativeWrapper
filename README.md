@@ -1,7 +1,20 @@
-# Tauri + Vanilla
+# Website native wrapper
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+This template should if you need convert internet website to native application.
 
-## Recommended IDE Setup
+### Dependencies:
+- Rust
+- NodeJS
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+### How start?
+- Open CMD in project, past and run development command ("npm run tauri dev")
+
+### How to set up on my site?
+- Change URL it website [src/main.js | 1 line]
+- Change application name [src-tauri/tauri.conf.json | 10 line]
+- Change application width & height [src-tauri/tauri.conf.json | 41,42 line]
+- Change application title [src-tauri/tauri.conf.json | 40 line]
+- Change icon [src-tauri/icons/icon.ico]
+
+### How build?
+- Open CMD in project, past and run build command ("npm run tauri build")
